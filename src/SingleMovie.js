@@ -1,6 +1,5 @@
  import { NavLink, useParams  } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
-// import { API_URL } from "./useFetch";
 
 const SingleMovie = () => {
   const {id} = useParams();
